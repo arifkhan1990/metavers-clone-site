@@ -10,7 +10,7 @@ import {
   World,
 } from '../sections';
 
-const Page = () => (
+const Home = () => (
   <div className='bg-primary-black overflow-hidden'>
     <Navbar />
     <Hero />
@@ -18,27 +18,20 @@ const Page = () => (
       <About />
       <div className='gradient-03 z-0' />
       <Explore />
-      <div className='gradient-03 z-0' />
     </div>
     <div className='relative'>
-      <div className='gradient-03 z-0' />
       <GetStarted />
-      <div className='gradient-03 z-0' />
+      <div className='gradient-04 z-0' />
       <WhatsNew />
     </div>
+    <World />
     <div className='relative'>
-      <div className='gradient-04 z-0' />
-      <World />
-    </div>
-    <div className='relative'>
-      <div className='gradient-03 z-0' />
       <Insights />
-      <div className='gradient-03 z-0' />
+      <div className='gradient-04 z-0' />
       <Feedback />
-      <div className='gradient-03 z-0' />
     </div>
     <Footer />
   </div>
 );
 
-export default Page;
+export default Home;
